@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="container content post">
+  <h3><strong>{{ page.title }}</strong><br/>
+  <small>posted on {{ page.date | date: '%B %-d, %Y'}}</small></h3>
+  <small>Authors: {{page.authors}}</small> <!-- This should be turned into a list -->
+  <hr>
+  {{ content }}
+  {% include social-share.html %}
+  <div id="disqus_thread"></div>
+</div>

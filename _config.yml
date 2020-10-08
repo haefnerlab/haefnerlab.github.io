@@ -1,0 +1,80 @@
+# Basic
+name:               "Haefner Lab"
+title:              "Computational Neuroscience Lab at University of Rochester"
+description:        "Lab Website for Haefner Lab"
+logo:               "rmhlab.jpg"
+
+
+# URL
+url:                http://ralfmahefner.github.io # change here with the new website when it comes
+baseurl:            
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           kramdown
+
+
+
+# Highlighter
+highlighter:        rouge
+
+# Navigation
+nav:
+  - name:           "home"
+    href:           "/"
+  - name:           "publications"
+    href:           "/publication"
+  - name:           "people"
+    href:           "/people"
+  - name:           "blog"
+    href:           "/blog"
+  - name:           "resources"
+    href:           "/resources"
+    sublinks:
+      - name:         "Science"
+        href:         "/science"
+      - name:         "tutorials"
+        href:         "/tutorials"
+      - name:         "logistics"
+        href:         "/logistics"
+
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      path:         ""
+      type:         "people"
+    values:
+      layout:       "profile"
+
+  - 
+    scope:
+      path:         ""
+      type:         "publications"
+    values:
+      layout:       "publication"
+
+
+
+collections:
+  people:
+    output: true
+    permalink: /people/:title/index.html
