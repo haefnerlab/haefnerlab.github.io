@@ -3,8 +3,11 @@ title: People
 permalink: /people/
 ---
 
+<img class='img-responsive center-block' src="/images/people/lab_2019.jpg" width="100%" height="100%" />
+
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
+
+{% assign role_array = "pi|postdoc|gradstudent|researchstaff|undergraduate|visiting|others|alumni" | split: "|" %}
 
 {% for role in role_array %}
 
