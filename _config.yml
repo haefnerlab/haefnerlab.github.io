@@ -31,6 +31,8 @@ nav:
     href:           "/blog"
   - name:           "resources"
     href:           "/resources"
+  - name:           "joinus"
+    href:           "/joinus"
     sublinks:
       - name:         "Science"
         href:         "/science"
