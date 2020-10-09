@@ -23,7 +23,7 @@ highlighter:        rouge
 nav:
   - name:           "home"
     href:           "/"
-  - name:           "publications2"
+  - name:           "publications"
     href:           "/publication"
   - name:           "people"
     href:           "/people"
