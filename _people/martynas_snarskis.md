@@ -1,7 +1,7 @@
 ---
 name: Martynas Snarskis
-position: Lab Manager
-avatar: something.jpg
+position: undergraduate
+avatar: marty.jpg
 twitter: @imsnarky
 webpage:
 joined: 2019
