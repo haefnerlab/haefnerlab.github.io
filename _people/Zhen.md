@@ -2,7 +2,7 @@
 name: Zhen
 position: gradstudent
 avatar: rEzuX6wqTUOplClEXenIZA_thumb_1205.jpg
-twitter: https://twitter.com/zhenchen113
+twitter:
 webpage:
 joined: 2018
 ---
