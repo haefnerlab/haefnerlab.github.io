@@ -1,6 +1,6 @@
 ---
 title: Publication
-permalink: /publication/
+permalink: /publication3/
 ---
 
 All info here: [google scholar citations profile](https://scholar.google.com/citations?user=Xd_w2fIAAAAJ&hl).
