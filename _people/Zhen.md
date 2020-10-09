@@ -1,6 +1,6 @@
 ---
 name: Zhen
-position: Gradstudent
+position: gradstudent
 avatar: something.jpg
 twitter: https://twitter.com/zhenchen113
 webpage:
