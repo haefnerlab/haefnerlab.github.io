@@ -23,6 +23,8 @@ highlighter:        rouge
 nav:
   - name:           "home"
     href:           "/"
+  - name:           "research"
+    href:           "/research"
   - name:           "publications"
     href:           "/publication"
   - name:           "people"
@@ -31,8 +33,7 @@ nav:
     href:           "/resources"
   - name:           "joinus"
     href:           "/joinus"
-  - name:           "research"
-    href:           "/research"
+
 
 
 # Sass
