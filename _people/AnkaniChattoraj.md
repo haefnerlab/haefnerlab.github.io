@@ -1,6 +1,6 @@
 ---
 name: Ankani Chattoraj
-position: Graduate Student
+position: gradstudent
 avatar: Chattoraj.jpg
 twitter: 
 ---
