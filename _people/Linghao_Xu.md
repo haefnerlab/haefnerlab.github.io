@@ -1,7 +1,7 @@
 ---
 ## name: Linghao
 position: gradstudent
-avatar: Linghao.png
+avatar: Linghao.JPG
 twitter: 
 webpage:
 joined: 2019
