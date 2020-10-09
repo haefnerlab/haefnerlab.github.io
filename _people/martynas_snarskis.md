@@ -1,6 +1,6 @@
 ---
 name: Martynas Snarskis
-position: undergraduate
+position: postdoc
 avatar: marty.jpg
 twitter:
 webpage:
