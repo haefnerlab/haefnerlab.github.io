@@ -3,7 +3,7 @@ name: Zhen
 position: gradstudent
 avatar: rEzuX6wqTUOplClEXenIZA_thumb_1205.jpg
 twitter:
-webpage: https://magiczhen.github.io/
+webpage:
 joined: 2018
 ---
 
