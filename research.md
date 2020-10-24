@@ -9,48 +9,52 @@ permalink: /research/
 3. [Binocular vision](#binvis)
 4. [Natural image statistics](#images)
 
+---
 
 ### Probabilistic (causal) inference and neural sampling <a name="sampling"></a>
 
 In order to draw conclusions, or inferences, about the outside world, the brain has to combine sensory information with its learnt knowledge about the structure of the external world. How this is implemented in the brain is still unknown. By generating predictions for classic perceptual tasks, we test the hypothesis that the brain performs probabilistic inference by sampling, i.e. that neuronal activity can be interpreted as samples from a generative model of the world that the brain has previously learnt.
 
-- Haefner et al. 2016 (Neuron)
-- Lange & Haefner 2017 (Curr Opin Neurobiol)
-- Lange & Haefner 2020 (biorxiv)
-- Lange et al. 2020 (biorxiv)
+- [Haefner et al. 2016 (Neuron)](http://www.sciencedirect.com/science/article/pii/S0896627316300113)
+- [Lange & Haefner 2017 (Curr Opin Neurobiol)](http://www.sciencedirect.com/science/article/pii/S0959438817300442)
+- [Lange & Haefner 2020 (biorxiv)](https://www.biorxiv.org/content/10.1101/081661v4)
+- [Lange et al. 2020 (biorxiv)](https://www.biorxiv.org/content/10.1101/440321v3)
 
 Test of model predictions using data from macaque V1.
 
-- Bondy, Haefner & Cumming 2018 (Nature Neuroscience)
+- [Bondy, Haefner & Cumming 2018 (Nature Neuroscience)](http://www2.bcs.rochester.edu/sites/haefnerlab/files/Bondy_etal_2018.pdf)
 
-
+---
 
 ### Population (de)coding and perceptual decision-making<a name="decision"></a>
 
 How many sensory neurons contribute to a particular decision, how are they being read out (e.g. optimal or not) and which neurons are they? We have made significant progress recently towards answering these questions by deriving the analytical relationship between noise correlations, choice probabilities and read-out weights. This will allow us to answer two of these questions as soon as multi-electrode recordings from behaving animals become available, i.e. very soon.
 
-- Nature Neuroscience 16, 235–242 (2013) PDF+Code+Bibtex
+- [Nature Neuroscience 16, 235–242 (2013)](http://www.nature.com/neuro/journal/v16/n2/full/nn.3309.html) [PDF+Code+Bibtex](http://bethgelab.org/publications/r.+m.+haefner/)
 
 Applying this framework to neural recordings from MT during a dual motion direction and binocular discrimination task while area V2 was being cooled, we could constrain the origin of the noise correlations in MT.
 
-- Neuron 81(1), 208-219 (2015)
+- [Neuron 81(1), 208-219 (2015)](http://www.cell.com/neuron/abstract/S0896-6273(15)00561-9)
 
 Application to MT data allowed us to investigate the neural basis of the psychophysical suppression effect.
 
-- Liu et al. 2016 eLife
+- [Liu et al. 2016 eLife]()
 
+---
 
 ### Binocular vision<a name="binvis"></a>
 
 Depth perception from binocular images is an exemplary model system for studying how the brain extracts information not explicitly present in its (2D) inputs. We have been particularly interested in understanding what feedforward computations might underlie the observed neurophysiology and how much information different binocular neuron types contain about depth.
 
-- Neuron 57, vol 1, 147-158 (2008) PDF
-- NeurIPS 2008 PDF NeurIPS 2010 PDF
-- J Neuroscience, 31(22): 8295-8305 (2011) PDF 
+- [Neuron 57, vol 1, 147-158 (2008)](http://www.cell.com/neuron/abstract/S0896-6273(07)00980-4) [PDF](http://lsr-web.net/Assets/NEIPages/BruceCumming/pdfs/HaefnerCummingNeuron08.pdf)
+- [NeurIPS 2008](http://papers.nips.cc/paper/3461-an-improved-estimator-of-variance-explained-in-the-presence-of-noise) [PDF]() 
+- [NeurIPS 2010](http://nips.cc/Conferences/2010/Program/event.php?ID=2122) [PDF](http://books.nips.cc/papers/files/nips23/NIPS2010_0590.pdf)
+- [J Neuroscience, 31(22): 8295-8305 (2011)](http://www.jneurosci.org/content/31/22/8295) [PDF](http://lsr-web.net/Assets/NEIPages/BruceCumming/pdfs/TanabeHaefnerBGC2011.pdf)
 
+---
 
 ### Natural image statistics<a name="images"></a>
 
 Understanding the statistics of the natural world is important for understanding the properties of early sensory processing. Traditionally, this argument has been made in the context of efficient coding (Barlow) but what learning principle (objective function) is responsible for the properties of early sensory neurons, e.g. their receptive fields in the case of visual neurons, is still an open question and active field of research. Ultimately, this question is related to what generative model the brain has learnt for its sensory inputs.
 
-- PLoS Comput Biol 10(3): e1003468
+- [PLoS Comput Biol 10(3): e1003468](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003468)
