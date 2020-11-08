@@ -1,6 +1,6 @@
 ---
 title: Task Induced Variability
-categories: publication
+categories: newblog
 header-img: images/post/dino3.jpg
 authors: RD Lange, RM Haefner
 published-month: July
