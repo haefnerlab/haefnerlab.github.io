@@ -3,7 +3,7 @@ title: Publication
 permalink: /publication/
 ---
 
-All info here: [google scholar citations profile](https://scholar.google.com/citations?user=Xd_w2fIAAAAJ&hl).
+For a list of all publications, visit the [google scholar citations profile](https://scholar.google.com/citations?user=Xd_w2fIAAAAJ&hl).
 
 <hr>
 
@@ -25,15 +25,38 @@ All info here: [google scholar citations profile](https://scholar.google.com/cit
         <p class="list-post-title">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h3 class="post-title">
-                            {{ pub.title }}
-                        </h3>
+                        
+                        <h6 class="post-title">
+                        {% if pub.link-to-blog != "" and  pub.link-to-blog != nil %}
+                        <a href = "/{{pub.link-to-blog}}">
+                        {% endif %}
+                            {{ pub.title }}, {{pub.authors}}, {{pub.journal}} ({{pub.date | date: "%B %Y" }})
+                        
+                        {% if pub.link-to-blog != "" and  pub.link-to-blog != nil %}
+                        </a>
+                        {% endif %}
+                        </h6>
+
                         <p class="list-post-title">
-                        posted on {{ pub.date | date: "%B %-d, %Y" }}
+                        Keywords: {{pub.keywords}}
                         </p>
+
+                        <p class="list-post-title">
+                        {% if pub.link-pdf != "" and pub.link-pdf != nil %}
+                        <a href="/pdfs/{{pub.link-pdf}}">[PDF]</a>
+                        {% endif %}
+                        {% if pub.link-journal != "" and pub.link-journal != nil %}
+                        <a href = "{{pub.link-journal}}">[Journal Link]</a>
+                        {% endif %}
+                        </p>
+                        <!-- <p class="list-detail" >
+                            {{ pub.content | strip_html }}
+                        </p> -->
+                        {% if pub.abstract-mini != "" and pub.abstract-mini != nil %}
                         <p class="list-detail" >
-                            {{ pub.content | strip_html | truncatewords:30 }}
+                            {{ pub.abstract-mini | strip_html }}
                         </p>
+                        {% endif %}
                     </div>
                 </div>
         </p>
