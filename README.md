@@ -1,7 +1,5 @@
 # Haefner lab page
 
-
-
 ## Run the page locally using Jekyll
 
 To run locally, follow instruction [here](https://jekyllrb.com/) to install Jekyll then run `jekyll serve` to see in `localhost:4000`. Here is a brief install guidelines.
@@ -12,9 +10,32 @@ gem install rouge
 jekyll serve
 ```
 
-## Editing the lab website
+## To make minor edits
 
-Below, we explain how to edit the lab webpage
+If you want to add new content, like blogs, posts, publications and lab members, it can all be achieved just editing through the github website. Keep reading. 
+
+## To add new lab members
+
+New lab members can be added into the `_people` directory, with a file name like `firstname_lastname.md`
+
+```
+---
+name: Computational Ninja
+position: gradstudent
+avatar: something.jpg
+twitter: 
+webpage: haefnerlab.gitbhub.io
+joined: 2019
+---
+
+## Whatever I want to add about me.
+
+```
+By default, the file parses the `avatar` photo from the `images/people` directory. So make sure you add your picture in that directory. The following fields are available for the postition in the lab. Choose only one of them (hope they are self explanatory).
+
+`pi|postdoc|gradstudent|researchstaff|undergraduate|visiting|others|alumni`
+
+To remove a lab member (once they graduate, or otherwise), simply remove their `lab-member.md` file from the `_people` directory. 
 
 ### Add posts
 
@@ -39,27 +60,11 @@ We have 4 categories: `scientists`, `students`, `discussion`, `blog` you can cho
 
 The changes will take approximately half a minute to render. You can see the new posts or changes on [kordinglab.com](http://kordinglab.github.io/)!
 
-### Add yourself
+## Add news
 
-You can add yourself to the page in `_people` folder just create file name `<firstname>_<lastname>.md` in the folder. We require few line of header before you start writing your own page. See the following for the header
-
+New News items can be added into `_data/news.yml` in the following format.
 ``` markdown
----
-name: Eva Dyer
-position: postdoc
-avatar: eva.jpg
-twitter:
-joined: 2014
----
+- date: YYYY-MM-DD
+  details: This thing happenend
 ```
-
-If you don't have information, just leave it blank. The avatar will bring photo from `images/people` folder and display it on people page. 
-For lab position, you can choose position from 4 classes including `postdoc`, `gradstudent`, `visiting`, `others` (so called Honorary members). Position will put you into section that you choose.
-
-### Add new publications
-
-All publications from the lab are located in `publications.md`. Please upload new publication on your own!
-
-### Add news
-
-All news presented in the front page by editing `_data/news.yml`. There are some symbol that cannot be used directly e.g. `:`, be careful
+The site automatically excludes everything that is over 60 days (2months) so don't worry about removing old news items. Just keep adding new ones on top. There are some symbols that cannot be used directly e.g. `:`, be careful.
