@@ -29,9 +29,7 @@ nav:
     href:           "/publication"
   - name:           "people"
     href:           "/people"
-  - name:           "resources"
-    href:           "/resources"
-  - name:           "joinus"
+  - name:           "Join Us"
     href:           "/joinus"
 
 
