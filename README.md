@@ -37,20 +37,29 @@ By default, the file parses the `avatar` photo from the `images/people` director
 
 To remove a lab member (once they graduate, or otherwise), simply remove their `lab-member.md` file from the `_people` directory. 
 
-### Add posts
+### What do posts look like
 
 It's very easy to add post. All the posts are located in `_posts` folder. It arrangement is based on
 date. Each post can be written in markdown format. You just have to state headers before writing: `title`, `description` and `categories`. `description` will be shown when you share on social media like Facebook or twitter. See the following headers:
 
+**IMPORTANT NOTE:** For the posts to be parsed, add the file with name: `YYYY-MM-DD-Word1-Word2-Word3.md`
+
 ``` markdown
 ---
-title: Summer School in Computational Sensory-Motor Neuroscience (CoSMo)
-description: all links to CoSMo summer school in computational neuroscience materials
-categories: scientists
+title: How to add a blog post and other things
+description: Tells you how you can add a blog post. 
+categories: newblog
+header-img: images/image.png
+author: Computational Ninja
+hidden: True
 ---
+
+Add content here. 
 ```
 
-We have 4 categories: `scientists`, `students`, `discussion`, `blog` you can choose and this will be rendered to different location.
+We have categories : `newblog` (for blog posts and publication blog posts), `science` (Description of a scientific idea the lab has been working on), `tuts` (Tutorials for coding practices, editing figures etc.), and `logistics` for information about how lab members can navigate through reimbursement processes, room access etc. 
+
+Coming soon: Adding a username capability to be filled in the `author` field, so it could automatically take you to the author's personal page. 
 
 ### How to add posts
 
@@ -59,6 +68,23 @@ We have 4 categories: `scientists`, `students`, `discussion`, `blog` you can cho
 - **Clone the repository**, kind of the same as directly add post on Github. You just have to clone the repository. Then add new post file, commit and push to the repo.
 
 The changes will take approximately half a minute to render. You can see the new posts or changes on [kordinglab.com](http://kordinglab.github.io/)!
+
+## Add a publication
+
+New Publications can be added to `_data/publications.yml` in the following format:
+
+```
+- title: Task-induced neural covariability as a signature of approximate Bayesian learning and inference
+  authors: RD Lange, RM Haefner
+  date: 2020-09-22
+  journal: bioRxiv
+  link-to-blog: 2020/09/22/Task-induced-variability
+  keywords: Approximate Inference
+  link-pdf: 081661v4.full.pdf
+  link-journal: https://www.biorxiv.org/content/10.1101/081661v4
+  abstract-mini:
+```
+Add `authors` and `keywords` comma-separated. Make sure to not have a `,` at the end of the last author/ keyword. PDFs can be added to the `pdfs` directory. `link-to-blog` can be used if you plan to write a blog about your publication. In this case add a post as described above and then copy the generated link to here. If you created the post as `YYYY-MM-DD-Word1-Word2-Word3.md`, your link will look like: `YYYY/MM/DD/Word1-Word2-Word3`.
 
 ## Add news
 
