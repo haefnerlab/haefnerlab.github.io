@@ -2,6 +2,7 @@
 title: Reference
 permalink: /resources/
 ---
+{% assign resources_sorted = site.people | sort: 'joined' %}
 
 ### Science
 
