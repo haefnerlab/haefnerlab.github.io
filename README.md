@@ -1,4 +1,5 @@
 # Haefner lab page
+----------------------
 
 ## Run the page locally using Jekyll (If you need to make changes on the structure/ style of the website, if not, keep reading)
 
