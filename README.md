@@ -94,3 +94,7 @@ New News items can be added into `_data/news.yml` in the following format.
   details: This thing happenend
 ```
 The site automatically excludes everything that is over 60 days (2months) so don't worry about removing old news items. Just keep adding new ones on top. There are some symbols that cannot be used directly e.g. `:`, be careful.
+
+## How to add an image / PDFs:
+
+One can upload an image directly on the github website by clicking on the top-right corner `Add file`. Make sure you are in the correct sub-directory. The relative path, e.g. `images/people/name_of_the_image_you_uploaded.jpg`. Similarly, you can upload PDFs. 
