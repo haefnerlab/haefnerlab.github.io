@@ -1,6 +1,6 @@
 # Haefner lab page
 
-## Run the page locally using Jekyll
+## Run the page locally using Jekyll (If you need to make changes on the structure/ style of the website, if not, keep reading)
 
 To run locally, follow instruction [here](https://jekyllrb.com/) to install Jekyll then run `jekyll serve` to see in `localhost:4000`. Here is a brief install guidelines.
 
