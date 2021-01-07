@@ -9,16 +9,19 @@ Our primary scientific interest lies in understanding how the brain forms percep
 
 ---
 ## Research directions
-1. [Probabilistic (causal) inference and neural sampling](#sampling)
-2. [Population (de)coding and perceptual decision-making](#decision)
-3. [Binocular vision](#binvis)
-4. [Natural image statistics](#images)
+1. [Neural signature of hierarchical probabilistic inference](#neural)
+2. [Behavioral signitures of approximate inference](#approx)
+3. [Hierarchical causal inference in motion perception](#motion)
+4. [Neural implementations of sampling-based inference](#sampling)
+5. [Population (de)coding and perceptual decision-making](#classic)
+6. [Binocular vision](#binvis)
+7. [Natural image statistics](#images)
 
 ---
 
-### Probabilistic (causal) inference and neural sampling <a name="sampling"></a>
+### Probabilistic (causal) inference and neural sampling <a name="neural"></a>
 
-In order to draw conclusions, or inferences, about the outside world, the brain has to combine sensory information with its learnt knowledge about the structure of the external world. How this is implemented in the brain is still unknown. By generating predictions for classic perceptual tasks, we test the hypothesis that the brain performs probabilistic inference by sampling, i.e. that neuronal activity can be interpreted as samples from a generative model of the world that the brain has previously learnt.
+In order to draw inferences about the outside world the brain has to combine sensory information with its learnt knowledge about the structure of the external world. How this is implemented in the brain is still unknown. By generating predictions for classic perceptual tasks, we test the hypothesis that the brain performs probabilistic inference, with neural sensory activity representing posterior beliefs in a generative model of the world.
 
 - [Haefner et al. 2016 (Neuron)](http://www.sciencedirect.com/science/article/pii/S0896627316300113)
 - [Lange & Haefner 2017 (Curr Opin Neurobiol)](http://www.sciencedirect.com/science/article/pii/S0959438817300442)
@@ -31,7 +34,7 @@ Test of model predictions using data from macaque V1.
 
 ---
 
-### Population (de)coding and perceptual decision-making<a name="decision"></a>
+### Population (de)coding and perceptual decision-making<a name="classic"></a>
 
 How many sensory neurons contribute to a particular decision, how are they being read out (e.g. optimal or not) and which neurons are they? We have made significant progress recently towards answering these questions by deriving the analytical relationship between noise correlations, choice probabilities and read-out weights. This will allow us to answer two of these questions as soon as multi-electrode recordings from behaving animals become available, i.e. very soon.
 
