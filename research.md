@@ -3,7 +3,12 @@ title: Research
 permalink: /research/
 ---
 
-## Ongoing Projects
+Our primary scientific interest lies in understanding how the brain forms percepts and uses them to make decisions, especially in the visual domain. In particular, we are interested in how the brain's perceptual beliefs about the outside world are represented by the responses of populations of cortical neurons and how their spiking activity gives rise to percepts and decisions. To that end we construct mathematical models that aim to explain neural responses and behavior.
+
+**Key concepts** in the context of our work are _perceptual decision-making, probabilistic inference, neural sampling, noise correlations, choice probabilities, population responses, optimal linear read-out, feedforward, recurrent and top-down processing, covert attention, psychophysical kernel, confirmation bias_.
+
+---
+## Research directions
 1. [Probabilistic (causal) inference and neural sampling](#sampling)
 2. [Population (de)coding and perceptual decision-making](#decision)
 3. [Binocular vision](#binvis)
