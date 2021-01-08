@@ -1,7 +1,7 @@
 ---
-name: Himanshu
+name: Himanshu Ahuja
 position: gradstudent
-avatar: something.jpg
+avatar: himanshu_1.jpg
 twitter: 
 webpage:
 joined: 2019
