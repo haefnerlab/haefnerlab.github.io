@@ -16,3 +16,4 @@ joined: 2018
   1. how centrifugal feedback influences these patterns;
   1. how these patterns generate motor behaviors;
   1. at a higher level, how the neuronal circuits perform inference and represent uncertainty.
+* You can find more about me on my personal [Webpage](https://magiczhen.github.io) and [Google Schalar] (https://scholar.google.com/citations?user=5tLXAaEAAAAJ&hl=en). Feel free to reach out!
