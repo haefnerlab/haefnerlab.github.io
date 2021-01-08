@@ -1,5 +1,5 @@
 ---
-## name: Linghao
+name: Linghao Xu
 position: gradstudent
 avatar: Linghao.JPG
 twitter: 
