@@ -25,4 +25,33 @@
     results reinterpret task-dependent sources of neural covariability 
     s signatures of Bayesian inference and provide new insights 
     into their cause and their function.
-  abstract-mini:
+  abstract-mini: Mini abstract
+  
+  - title: V2 Task-induced neural covariability as a signature of approximate Bayesian learning and inference
+  authors: RD Lange, RM Haefner
+  date: 2020-09-22
+  journal: bioRxiv
+  link-to-blog: 2020/09/22/Task-induced-variability
+  keywords: Approximate Inference
+  link-pdf: 081661v4.full.pdf
+  link-journal: https://www.biorxiv.org/content/10.1101/081661v4
+  content: >
+    Perception can be characterized as an inference 
+    process in which beliefs are formed about the world 
+    given sensory observations. The sensory neurons 
+    implementing these computations, however, are 
+    classically characterized with firing rates, 
+    tuning curves, and correlated noise. 
+    To connect these two levels of description, we derive
+    expressions for how inferences themselves vary across 
+    trials, and how this predicts task-dependent patterns 
+    of correlated variability in the responses of sensory 
+    neurons. Importantly, our results require minimal 
+    assumptions about the nature of the inferred variables 
+    or how their distributions are encoded in neural activity. 
+    We show that our predictions are in agreement with existing 
+    measurements across a range of tasks and brain areas. Our 
+    results reinterpret task-dependent sources of neural covariability 
+    s signatures of Bayesian inference and provide new insights 
+    into their cause and their function.
+  abstract-mini: Mini abstract
