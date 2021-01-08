@@ -19,18 +19,31 @@ Our primary scientific interest lies in understanding how the brain forms percep
 
 ---
 
-### Probabilistic (causal) inference and neural sampling <a name="neural"></a>
+### Neural signature of hierarchical probabilistic inference <a name="neural"></a>
 
-In order to draw inferences about the outside world the brain has to combine sensory information with its learnt knowledge about the structure of the external world. How this is implemented in the brain is still unknown. By generating predictions for classic perceptual tasks, we test the hypothesis that the brain performs probabilistic inference, with neural sensory activity representing posterior beliefs in a generative model of the world.
+About...
+- papers
 
-- [Haefner et al. 2016 (Neuron)](http://www.sciencedirect.com/science/article/pii/S0896627316300113)
-- [Lange & Haefner 2017 (Curr Opin Neurobiol)](http://www.sciencedirect.com/science/article/pii/S0959438817300442)
-- [Lange & Haefner 2020 (biorxiv)](https://www.biorxiv.org/content/10.1101/081661v4)
-- [Lange et al. 2020 (biorxiv)](https://www.biorxiv.org/content/10.1101/440321v3)
+---
 
-Test of model predictions using data from macaque V1.
+### Behavioral signitures of approximate inference <a name="approx"></a>
 
-- [Bondy, Haefner & Cumming 2018 (Nature Neuroscience)](http://www2.bcs.rochester.edu/sites/haefnerlab/files/Bondy_etal_2018.pdf)
+About...
+- papers
+
+---
+
+### Hierarchical causal inference in motion perception <a name="motion"></a>
+
+About...
+- papers
+
+---
+
+### Neural implementations of sampling-based inference <a name="sampling"></a>
+
+About...
+- papers
 
 ---
 
@@ -66,3 +79,21 @@ Depth perception from binocular images is an exemplary model system for studying
 Understanding the statistics of the natural world is important for understanding the properties of early sensory processing. Traditionally, this argument has been made in the context of efficient coding (Barlow) but what learning principle (objective function) is responsible for the properties of early sensory neurons, e.g. their receptive fields in the case of visual neurons, is still an open question and active field of research. Ultimately, this question is related to what generative model the brain has learnt for its sensory inputs.
 
 - [PLoS Comput Biol 10(3): e1003468](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003468)
+
+
+<!-- commented junk below for copy/paste ease -->
+
+<!--### Probabilistic (causal) inference and neural sampling <a name="neural"></a>-->
+
+<!--In order to draw inferences about the outside world the brain has to combine sensory information with its learnt knowledge about the structure of the external world. How this is implemented in the brain is still unknown. By generating predictions for classic perceptual tasks, we test the hypothesis that the brain performs probabilistic inference, with neural sensory activity representing posterior beliefs in a generative model of the world.-->
+<!--
+- [Haefner et al. 2016 (Neuron)](http://www.sciencedirect.com/science/article/pii/S0896627316300113)
+- [Lange & Haefner 2017 (Curr Opin Neurobiol)](http://www.sciencedirect.com/science/article/pii/S0959438817300442)
+- [Lange & Haefner 2020 (biorxiv)](https://www.biorxiv.org/content/10.1101/081661v4)
+- [Lange et al. 2020 (biorxiv)](https://www.biorxiv.org/content/10.1101/440321v3)
+-->
+<!--
+Test of model predictions using data from macaque V1.
+- [Bondy, Haefner & Cumming 2018 (Nature Neuroscience)](http://www2.bcs.rochester.edu/sites/haefnerlab/files/Bondy_etal_2018.pdf)
+---
+-->
