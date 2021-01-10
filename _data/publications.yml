@@ -1,6 +1,6 @@
 - title: Task-induced neural covariability as a signature of approximate Bayesian learning and inference
   authors: RD Lange, RM Haefner
-  date: 2020
+  date: 2020-1-1
   journal: bioRxiv
   link-to-blog: 2020/09/22/Task-induced-variability
   keywords: Approximate Inference
@@ -29,7 +29,7 @@
   
 - title: Suppressive Mechanisms in Monkey V1 Help to Solve the Stereo Correspondence Problem
   authors: Tanabe, Seiji and Haefner, Ralf M. and Cumming, Bruce G.
-  date: 2011
+  date: 2011-1-1
   journal: Journal of Neuroscience
   link-to-blog: 
   keywords: 
@@ -41,7 +41,7 @@
   
 - title: An improved estimator of Variance Explained in the presence of noise
   authors: Haefner, Ralf M and Cumming, Bruce G
-  date: 2009
+  date: 2009-1-1
   journal: Advances in Neural Information Processing Systems 21
   link-to-blog: 
   keywords: 
@@ -53,7 +53,7 @@
   
 - title: Perceptual Decision-Making as Probabilistic Inference by Neural Sampling
   authors: Haefner, Ralf M. and Berkes, Pietro and Fiser, Jozsef
-  date: 2016
+  date: 2016-1-1
   journal: Neuron
   link-to-blog: 
   keywords: 
@@ -65,7 +65,7 @@
   
 - title: A probabilistic population code based on neural samples
   authors: Shivkumar, Sabyasachi and Lange, Richard D. and Chattoraj, Ankani and Haefner, Ralf M.
-  date: 2018
+  date: 2018-1-1
   journal: Advances of Neural Information Processig Systems 31
   link-to-blog: 
   keywords: 
@@ -77,7 +77,7 @@
   
 - title: A neural basis for the spatial suppression of visual motion perception
   authors: Liu, Liu D and Haefner, Ralf M and Pack, Christopher C
-  date: 2016
+  date: 2016-1-1
   journal: eLife
   link-to-blog: 
   keywords: 
@@ -89,7 +89,7 @@
 
 - title: Adaptation to natural binocular disparities in primate V1 explained by a generalized energy model
   authors: Haefner, Ralf M and Cumming, Bruce G
-  date: 2008
+  date: 2008-1-1
   journal: Neuron
   link-to-blog: 
   keywords: 
@@ -101,7 +101,7 @@
 
 - title: A dynamical model of the inner Galaxy
   authors: Haefner, Ralf M and Dehnen, Walter and Evans, N Wyn and Binney, James
-  date: 2000
+  date: 2000-1-1
   journal: Monthly Notices of the Royal Astronomical Society
   link-to-blog: 
   keywords: 
@@ -113,7 +113,7 @@
 
 - title: Evaluating neuronal codes for inference using Fisher information
   authors: Haefner, Ralf M and Bethge, Matthias
-  date: 2010
+  date: 2010-1-1
   journal: Advances in Neural Information Processing Systems 23
   link-to-blog: 
   keywords: 
@@ -125,7 +125,7 @@
 
 - title: Inferring decoding strategies from choice probabilities in the presence of correlated variability
   authors: Haefner, Ralf M and Gerwinn, Sebastian and Macke, Jakob H and Bethge, Matthias
-  date: 2013
+  date: 2013-1-1
   journal: Nature Neuroscience
   link-to-blog: 
   keywords: 
@@ -137,7 +137,7 @@
 
 - title: A note on choice and detect probabilities in the presence of choice bias
   authors: Haefner, Ralf M
-  date: 2015
+  date: 2015-1-1
   journal: arXiv
   link-to-blog: 
   keywords: 
@@ -149,7 +149,7 @@
 
 - title: Decision-making in a sampling-based neural representation
   authors: Haefner, Ralf M and Berkes, Pietro and Fiser, Jozsef
-  date: 2012
+  date: 2012-1-1
   journal: Frontiers in Neuroscience
   link-to-blog: 
   keywords: 
