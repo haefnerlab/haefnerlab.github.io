@@ -19,35 +19,40 @@ Our primary scientific interest lies in understanding how the brain forms percep
 
 ---
 
-### Neural signature of hierarchical probabilistic inference <a name="neural"></a>
+<a name="neural"></a>
+### Neural signature of hierarchical probabilistic inference
 
 About...
 - papers
 
 ---
 
-### Behavioral signitures of approximate inference <a name="approx"></a>
+<a name="approx"></a>
+### Behavioral signitures of approximate inference
 
 About...
 - papers
 
 ---
 
-### Hierarchical causal inference in motion perception <a name="motion"></a>
+<a name="motion"></a>
+### Hierarchical causal inference in motion perception
 
 About...
 - papers
 
 ---
 
-### Neural implementations of sampling-based inference <a name="sampling"></a>
+<a name="sampling"></a>
+### Neural implementations of sampling-based inference 
 
 About...
 - papers
 
 ---
 
-### Population (de)coding and perceptual decision-making<a name="classic"></a>
+<a name="classic"></a>
+### Population (de)coding and perceptual decision-making
 
 How many sensory neurons contribute to a particular decision, how are they being read out (e.g. optimal or not) and which neurons are they? We have made significant progress recently towards answering these questions by deriving the analytical relationship between noise correlations, choice probabilities and read-out weights. This will allow us to answer two of these questions as soon as multi-electrode recordings from behaving animals become available, i.e. very soon.
 
@@ -63,7 +68,8 @@ Application to MT data allowed us to investigate the neural basis of the psychop
 
 ---
 
-### Binocular vision<a name="binvis"></a>
+<a name="binvis"></a>
+### Binocular vision
 
 Depth perception from binocular images is an exemplary model system for studying how the brain extracts information not explicitly present in its (2D) inputs. We have been particularly interested in understanding what feedforward computations might underlie the observed neurophysiology and how much information different binocular neuron types contain about depth.
 
@@ -74,7 +80,8 @@ Depth perception from binocular images is an exemplary model system for studying
 
 ---
 
-### Natural image statistics<a name="images"></a>
+<a name="images"></a>
+### Natural image statistics
 
 Understanding the statistics of the natural world is important for understanding the properties of early sensory processing. Traditionally, this argument has been made in the context of efficient coding (Barlow) but what learning principle (objective function) is responsible for the properties of early sensory neurons, e.g. their receptive fields in the case of visual neurons, is still an open question and active field of research. Ultimately, this question is related to what generative model the brain has learnt for its sensory inputs.
 
