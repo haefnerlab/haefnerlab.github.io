@@ -8,13 +8,16 @@ For a list of all publications, visit the [google scholar citations profile](htt
 <hr>
 
 <div class="content list">
-{% for pub in site.data.publications %}
+
+{% assign sorted = site.data.publications | sort: 'date' | reverse %}
+{% for pub in sorted %}
+
     {% capture year_of_current_post %}
         {{ pub.date | date: "%Y" }}
     {% endcapture %}
 
     {% capture year_of_previous_post_in_set %}
-        {{ site.data[forloop.index].date | date: "%Y" }}
+        {{ sorted[forloop.index].date | date: "%Y" }}
     {% endcapture %}
 
     {% if forloop.first %}
@@ -26,27 +29,38 @@ For a list of all publications, visit the [google scholar citations profile](htt
                 <div class="row">
                     <div class="col-sm-12">
                         
-                        <h6 class="post-title">
-                        {% if pub.link-to-blog != "" and  pub.link-to-blog != nil %}
-                        <a href = "/{{pub.link-to-blog}}">
-                        {% endif %}
-                            {{ pub.title }}, {{pub.authors}}, {{pub.journal}} ({{pub.date | date: "%B %Y" }})
-                        
-                        {% if pub.link-to-blog != "" and  pub.link-to-blog != nil %}
-                        </a>
-                        {% endif %}
-                        </h6>
+                        <p class="publication-title">
+                            {% if pub.link-to-blog != "" and  pub.link-to-blog != nil %}
+                                <a href = "/{{pub.link-to-blog}}">
+                            {% endif %}
+                            
+                            {{ pub.title }}
+                            
+                            {% if pub.link-to-blog != "" and  pub.link-to-blog != nil %}
+                                </a>
+                            {% endif %}
+                        </p>
 
+                        <span class="publication-subtitle">
+                            {{pub.authors}}
+                        </span>
+
+                        <p class = "publication-journal">
+                            {{pub.journal}}, {{pub.date | date: "%B %Y" }}
+                        </p>
+                        {% comment %}
                         <p class="list-post-title">
                         Keywords: {{pub.keywords}}
                         </p>
+                        {% endcomment %}
 
+                        
                         <p class="list-post-title">
                         {% if pub.link-pdf != "" and pub.link-pdf != nil %}
-                        <a href="/pdfs/{{pub.link-pdf}}">[PDF]</a>
+                        <a href="/pdfs/{{pub.link-pdf}}">[ PDF ]</a>
                         {% endif %}
                         {% if pub.link-journal != "" and pub.link-journal != nil %}
-                        <a href = "{{pub.link-journal}}">[Journal Link]</a>
+                        <a class = "publication-journal" href = "{{pub.link-journal}}">[ Journal Link ]</a>
                         {% endif %}
                         </p>
                         <!-- <p class="list-detail" >
@@ -61,7 +75,6 @@ For a list of all publications, visit the [google scholar citations profile](htt
                 </div>
         </p>
     </div>
-    <hr/>
 
     {% if forloop.last %}
         </ul>
@@ -74,7 +87,6 @@ For a list of all publications, visit the [google scholar citations profile](htt
     {% endif %}
 {% endfor %}
 
-</div>
 
 <h3>Copyright Notice</h3>
 
