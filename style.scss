@@ -372,6 +372,26 @@ tbody tr:nth-child(odd) th {
   }
 }
 
+
+.publication {
+  &-title {
+    font-weight: 300;
+    margin-bottom: .25rem;
+  }
+  &-subtitle {
+    font-weight: 250;
+    font-style: italic;
+  }
+  &-journal {
+    font-weight: 300;
+  }
+  &-date {
+    margin-bottom: 2rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+}
+
 .list {
   &-post-title {
     margin-bottom: .25rem;
