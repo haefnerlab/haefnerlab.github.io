@@ -1,7 +1,7 @@
 ---
 name: Sabya
 position: gradstudent
-avatar: headshot.png
+avatar: sabya.png
 twitter:
 webpage: manga-sab.github.io
 joined: 2017
