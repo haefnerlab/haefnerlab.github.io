@@ -2,7 +2,7 @@
 name: Martynas Snarskis
 position: undergraduate
 avatar: martynas_snarskis.jpeg
-twitter: @MSnarskis
+twitter: MSnarskis
 webpage: msnarskis.github.io
 joined: 2019
 ---
