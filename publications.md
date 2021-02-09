@@ -21,7 +21,7 @@ For a list of all publications, visit the [google scholar citations profile](htt
     {% endcapture %}
 
     {% if forloop.first %}
-        <h1>{{ year_of_current_post }}</h1>
+        <h3>{{ year_of_current_post }}</h3>
         <ul>
     {% endif %}
     <div class="list-item">
