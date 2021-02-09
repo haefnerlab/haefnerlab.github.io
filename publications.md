@@ -81,7 +81,7 @@ For a list of all publications, visit the [google scholar citations profile](htt
     {% else %}
         {% if year_of_current_post != year_of_previous_post_in_set %}
             <!-- </ul> -->
-            <h1>{{ year_of_previous_post_in_set }}</h1>
+            <h3>{{ year_of_previous_post_in_set }}</h3>
             <ul>
         {% endif %}
     {% endif %}
