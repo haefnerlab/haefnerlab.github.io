@@ -46,7 +46,7 @@
   link-to-blog: 
   keywords: 
   link-pdf: 
-  link-journal: 
+  link-journal: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188445/
   content: >
     A crucial part of developing mathematical models of information processing in the brain is the quantification of their success. One of the most widely-used metrics yields the percentage of the variance in the data that is explained by the model. Unfortunately, this metric is biased due to the intrinsic variability in the data. We derive a simple analytical modification of the traditional formula that significantly improves its accuracy (as measured by bias) with similar or better precision (as measured by mean-square error) in estimating the true underlying Variance Explained by the model class. Our estimator advances on previous work by a) accounting for overfitting due to free model parameters mitigating the need for a separate validation data set, b) adjusting for the uncertainty in the noise estimate and c) adding a conditioning term. We apply our new estimator to binocular disparity tuning curves of a set of macaque V1 neurons and find that on a population level almost all of the variance unexplained by Gabor functions is attributable to noise.
   abstract-mini:
@@ -58,7 +58,7 @@
   link-to-blog: 
   keywords: 
   link-pdf: 
-  link-journal: 
+  link-journal: https://doi.org/10.1016/j.neuron.2016.03.020
   content: >
     We address two main challenges facing systems neuroscience today: understanding the nature and function of cortical feedback between sensory areas and of correlated variability. Starting from the old idea of perception as probabilistic inference, we show how to use knowledge of the psychophysical task to make testable predictions for the influence of feedback signals on early sensory representations. Applying our framework to a two-alternative forced choice task paradigm, we can explain multiple empirical findings that have been hard to account for by the traditional feedforward model of sensory processing, including the task dependence of neural response correlations and the diverging time courses of choice probabilities and psychophysical kernels. Our model makes new predictions and characterizes a component of correlated variability that represents task-related information rather than performance-degrading noise. It demonstrates a normative way to integrate sensory and cognitive components into physiologically testable models of perceptual decision-making. Feedback signals are ubiquitous in cortex yet underconstrained by empirical data. Haefner et al. derive predictions for their effect on sensory representations as a function of the behavioral task, with implications for the role of correlated variability in sensory coding.
   abstract-mini:
