@@ -63,7 +63,9 @@ permalink: /people/
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :-----------|
+| [Linghao Xu]| Masters Student (2020) | PhD at Ruben Coen Cagli's lab
 | [Richard Lange](http://boxandarrowbrain.com) | Graduate Student (2020) | Postdoc at Konrad Kording's Lab |
+
 
 {% endif %}
 {% endfor %}
