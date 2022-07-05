@@ -27,29 +27,20 @@
     into their cause and their function.
   abstract-mini: 
   
-- title: Suppressive Mechanisms in Monkey V1 Help to Solve the Stereo Correspondence Problem
-  authors: Tanabe, Seiji and Haefner, Ralf M. and Cumming, Bruce G.
-  date: 2011-1-1
-  journal: Journal of Neuroscience
+
+- title: A probabilistic population code based on neural samples
+  authors: Shivkumar, Sabyasachi and Lange, Richard D. and Chattoraj, Ankani and Haefner, Ralf M.
+  date: 2018-1-1
+  journal: Advances of Neural Information Processig Systems 31
   link-to-blog: 
   keywords: 
   link-pdf: 
-  link-journal: http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.5000-10.2011
+  link-journal: http://arxiv.org/abs/1811.09739
   content: >
-    Neurons encode the depth in stereoscopic images by combining the signals from the receptive fields in the two eyes. Local variations in single images can activate neurons that do not signal the correct disparity (false matches), giving rise to the stereo correspondence problem. We used binocular white-noise stimuli to decompose the responses of monkey primary visual cortex V1 neurons into the elements of a linear-nonlinear model (via spike-triggered covariance analysis). In our population of disparity-selective neurons, we find both excitatory and suppressive elements in many of the neurons. Their binocular receptive fields were aligned in a specific push-pull manner for disparity. We demonstrate that this arrangement reduces the responses to false matches but preserves the responses to true matches. The responses of the cells to the noise stimuli were well explained by a linear summation of the elements, followed by a nonlinearity. This model also explained the shape of independently measured disparity-tuning curves, although it overestimated the response magnitude. This study constitutes the first direct physiological evidence for the contribution of suppressive mechanisms to disparity selectivity. This new mechanism contributes to solving the stereo correspondence problem.
+    
   abstract-mini:
-  
-- title: An improved estimator of Variance Explained in the presence of noise
-  authors: Haefner, Ralf M and Cumming, Bruce G
-  date: 2009-1-1
-  journal: Advances in Neural Information Processing Systems 21
-  link-to-blog: 
-  keywords: 
-  link-pdf: 
-  link-journal: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188445/
-  content: >
-    A crucial part of developing mathematical models of information processing in the brain is the quantification of their success. One of the most widely-used metrics yields the percentage of the variance in the data that is explained by the model. Unfortunately, this metric is biased due to the intrinsic variability in the data. We derive a simple analytical modification of the traditional formula that significantly improves its accuracy (as measured by bias) with similar or better precision (as measured by mean-square error) in estimating the true underlying Variance Explained by the model class. Our estimator advances on previous work by a) accounting for overfitting due to free model parameters mitigating the need for a separate validation data set, b) adjusting for the uncertainty in the noise estimate and c) adding a conditioning term. We apply our new estimator to binocular disparity tuning curves of a set of macaque V1 neurons and find that on a population level almost all of the variance unexplained by Gabor functions is attributable to noise.
-  abstract-mini:
+
+
   
 - title: Perceptual Decision-Making as Probabilistic Inference by Neural Sampling
   authors: Haefner, Ralf M. and Berkes, Pietro and Fiser, Jozsef
@@ -63,17 +54,7 @@
     We address two main challenges facing systems neuroscience today: understanding the nature and function of cortical feedback between sensory areas and of correlated variability. Starting from the old idea of perception as probabilistic inference, we show how to use knowledge of the psychophysical task to make testable predictions for the influence of feedback signals on early sensory representations. Applying our framework to a two-alternative forced choice task paradigm, we can explain multiple empirical findings that have been hard to account for by the traditional feedforward model of sensory processing, including the task dependence of neural response correlations and the diverging time courses of choice probabilities and psychophysical kernels. Our model makes new predictions and characterizes a component of correlated variability that represents task-related information rather than performance-degrading noise. It demonstrates a normative way to integrate sensory and cognitive components into physiologically testable models of perceptual decision-making. Feedback signals are ubiquitous in cortex yet underconstrained by empirical data. Haefner et al. derive predictions for their effect on sensory representations as a function of the behavioral task, with implications for the role of correlated variability in sensory coding.
   abstract-mini:
   
-- title: A probabilistic population code based on neural samples
-  authors: Shivkumar, Sabyasachi and Lange, Richard D. and Chattoraj, Ankani and Haefner, Ralf M.
-  date: 2018-1-1
-  journal: Advances of Neural Information Processig Systems 31
-  link-to-blog: 
-  keywords: 
-  link-pdf: 
-  link-journal: http://arxiv.org/abs/1811.09739
-  content: >
-    
-  abstract-mini:
+
   
 - title: A neural basis for the spatial suppression of visual motion perception
   authors: Liu, Liu D and Haefner, Ralf M and Pack, Christopher C
@@ -87,38 +68,19 @@
     In theory, sensory perception should be more accurate when more neurons contribute to the representation of a stimulus. However, psychophysical experiments that use larger stimuli to activate larger pools of neurons sometimes report impoverished perceptual performance. To determine the neural mechanisms underlying these paradoxical findings, we trained monkeys to discriminate the direction of motion of visual stimuli that varied in size across trials, while simultaneously recording from populations of motion-sensitive neurons in cortical area MT. We used the resulting data to constrain a computational model that explained the behavioral data as an interaction of three main mechanisms: noise correlations, which prevented stimulus information from growing with stimulus size; neural surround suppression, which decreased sensitivity for large stimuli; and a read-out strategy that emphasized neurons with receptive fields near the stimulus center. These results suggest that paradoxical percepts reflect tradeoffs between sensitivity and noise in neuronal populations.
   abstract-mini:
 
-- title: Adaptation to natural binocular disparities in primate V1 explained by a generalized energy model
-  authors: Haefner, Ralf M and Cumming, Bruce G
-  date: 2008-1-1
-  journal: Neuron
-  link-to-blog: 
-  keywords: 
-  link-pdf: 
-  link-journal: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2344156
-  content: >
-    
-  abstract-mini:
 
-- title: A dynamical model of the inner Galaxy
-  authors: Haefner, Ralf M and Dehnen, Walter and Evans, N Wyn and Binney, James
-  date: 2000-1-1
-  journal: Monthly Notices of the Royal Astronomical Society
-  link-to-blog: 
-  keywords: 
-  link-pdf: 
-  link-journal: http://doi.wiley.com/10.1046/j.1365-8711.2000.03242.x
-  content: >
-    
-  abstract-mini:
 
-- title: Evaluating neuronal codes for inference using Fisher information
-  authors: Haefner, Ralf M and Bethge, Matthias
-  date: 2010-1-1
-  journal: Advances in Neural Information Processing Systems 23
+
+
+
+- title: A note on choice and detect probabilities in the presence of choice bias
+  authors: Haefner, Ralf M
+  date: 2015-1-1
+  journal: arXiv
   link-to-blog: 
   keywords: 
   link-pdf: 
-  link-journal: 
+  link-journal: https://arxiv.org/abs/1501.03173
   content: >
     
   abstract-mini:
@@ -135,18 +97,6 @@
     
   abstract-mini:
 
-- title: A note on choice and detect probabilities in the presence of choice bias
-  authors: Haefner, Ralf M
-  date: 2015-1-1
-  journal: arXiv
-  link-to-blog: 
-  keywords: 
-  link-pdf: 
-  link-journal: https://arxiv.org/abs/1501.03173
-  content: >
-    
-  abstract-mini:
-
 - title: Decision-making in a sampling-based neural representation
   authors: Haefner, Ralf M and Berkes, Pietro and Fiser, Jozsef
   date: 2012-1-1
@@ -159,3 +109,65 @@
     
   abstract-mini:
 
+- title: Suppressive Mechanisms in Monkey V1 Help to Solve the Stereo Correspondence Problem
+  authors: Tanabe, Seiji and Haefner, Ralf M. and Cumming, Bruce G.
+  date: 2011-1-1
+  journal: Journal of Neuroscience
+  link-to-blog: 
+  keywords: 
+  link-pdf: 
+  link-journal: http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.5000-10.2011
+  content: >
+    Neurons encode the depth in stereoscopic images by combining the signals from the receptive fields in the two eyes. Local variations in single images can activate neurons that do not signal the correct disparity (false matches), giving rise to the stereo correspondence problem. We used binocular white-noise stimuli to decompose the responses of monkey primary visual cortex V1 neurons into the elements of a linear-nonlinear model (via spike-triggered covariance analysis). In our population of disparity-selective neurons, we find both excitatory and suppressive elements in many of the neurons. Their binocular receptive fields were aligned in a specific push-pull manner for disparity. We demonstrate that this arrangement reduces the responses to false matches but preserves the responses to true matches. The responses of the cells to the noise stimuli were well explained by a linear summation of the elements, followed by a nonlinearity. This model also explained the shape of independently measured disparity-tuning curves, although it overestimated the response magnitude. This study constitutes the first direct physiological evidence for the contribution of suppressive mechanisms to disparity selectivity. This new mechanism contributes to solving the stereo correspondence problem.
+  abstract-mini:    
+
+- title: Evaluating neuronal codes for inference using Fisher information
+  authors: Haefner, Ralf M and Bethge, Matthias
+  date: 2010-1-1
+  journal: Advances in Neural Information Processing Systems 23
+  link-to-blog: 
+  keywords: 
+  link-pdf: 
+  link-journal: 
+  content: >
+    
+  abstract-mini:
+
+
+  
+- title: An improved estimator of Variance Explained in the presence of noise
+  authors: Haefner, Ralf M and Cumming, Bruce G
+  date: 2009-1-1
+  journal: Advances in Neural Information Processing Systems 21
+  link-to-blog: 
+  keywords: 
+  link-pdf: 
+  link-journal: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4188445/
+  content: >
+    A crucial part of developing mathematical models of information processing in the brain is the quantification of their success. One of the most widely-used metrics yields the percentage of the variance in the data that is explained by the model. Unfortunately, this metric is biased due to the intrinsic variability in the data. We derive a simple analytical modification of the traditional formula that significantly improves its accuracy (as measured by bias) with similar or better precision (as measured by mean-square error) in estimating the true underlying Variance Explained by the model class. Our estimator advances on previous work by a) accounting for overfitting due to free model parameters mitigating the need for a separate validation data set, b) adjusting for the uncertainty in the noise estimate and c) adding a conditioning term. We apply our new estimator to binocular disparity tuning curves of a set of macaque V1 neurons and find that on a population level almost all of the variance unexplained by Gabor functions is attributable to noise.
+  abstract-mini:
+
+- title: Adaptation to natural binocular disparities in primate V1 explained by a generalized energy model
+  authors: Haefner, Ralf M and Cumming, Bruce G
+  date: 2008-1-1
+  journal: Neuron
+  link-to-blog: 
+  keywords: 
+  link-pdf: 
+  link-journal: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2344156
+  content: >
+    
+  abstract-mini:
+
+
+  - title: A dynamical model of the inner Galaxy
+  authors: Haefner, Ralf M and Dehnen, Walter and Evans, N Wyn and Binney, James
+  date: 2000-1-1
+  journal: Monthly Notices of the Royal Astronomical Society
+  link-to-blog: 
+  keywords: 
+  link-pdf: 
+  link-journal: http://doi.wiley.com/10.1046/j.1365-8711.2000.03242.x
+  content: >
+    
+  abstract-mini:
