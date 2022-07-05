@@ -63,7 +63,9 @@ permalink: /people/
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :-----------|
-| [Linghao Xu]| Masters Student (2020) | PhD at Ruben Coen Cagli's lab
+| Nicholas Cimaszewski| Undergraduate (2021) | |
+| Martynas Snarskis| Undergraduate (2021) | |
+| Linghao Xu| Masters Student (2021) | Ph.D. at Ruben Coen Cagli's lab|
 | [Richard Lange](http://boxandarrowbrain.com) | Graduate Student (2020) | Postdoc at Konrad Kording's Lab |
 
 
