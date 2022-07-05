@@ -1,7 +1,7 @@
 ---
 name: Anton Pletenev
 position: gradstudent
-avatar: rEzuX6wqTUOplClEXenIZA_thumb_1205.jpg
+avatar: Anton_Pletenev.jpg
 twitter: 
 webpage: 
 joined: 2021
