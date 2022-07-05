@@ -1,6 +1,6 @@
 ---
 name: Martynas Snarskis
-position: undergraduate
+position: alumni
 avatar: martynas_snarskis.jpeg
 twitter: MSnarskis
 webpage: msnarskis.github.io
