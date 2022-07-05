@@ -1,5 +1,5 @@
 ---
-name: Zhen
+name: Zhen Chen
 position: gradstudent
 avatar: rEzuX6wqTUOplClEXenIZA_thumb_1205.jpg
 twitter: zhenchen113
