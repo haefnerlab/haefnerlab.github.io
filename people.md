@@ -38,7 +38,7 @@ permalink: /people/
 {% endif %}
 </div>
 
-{% if role != 'alumni' %}
+{% if true %}
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
