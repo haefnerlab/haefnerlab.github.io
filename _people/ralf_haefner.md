@@ -7,11 +7,13 @@ twitter:
 
 <img width="300" src="{{site.baseurl}}/images/people/haefner.jpg" data-action="zoom">
 
-I'm really interested in how to make sense of the world, in how the brain makes sense of the world, and how to make sense of the brain. I believe a key piece of these puzzles is the notion of uncertainty, which motivates my main research interest: how do networks of neurons represent and compute with probabilities. To that end, I'm interested in models of the brain's computations, and in how to test them using psychophysical and neurophysiological data.
+I'm interested in how to make sense of the world, in how the brain makes sense of the world, and how to make sense of the brain. I believe a key piece of these puzzles is the notion of uncertainty, which motivates my main research interest: how do networks of neurons represent and compute with probabilities. To that end, I'm interested in models of the brain's computations, and in how to test them using psychophysical and neurophysiological data.
 
 I wasn't always interested in the brain, but have arrived at this point via a few turns and d-tours listed below:
 
-2014 - current: Assistant Professor, [Brain & Cognitive Sciences](http://www.bcs.rochester.edu/), [University of Rochester](http://www.rochester.edu/) (NY)  
+2022 - current: Associate Professor, [Brain & Cognitive Sciences](http://www.bcs.rochester.edu/), [University of Rochester](http://www.rochester.edu/) (NY)  
+
+2014 - 2022: Assistant Professor, [Brain & Cognitive Sciences](http://www.bcs.rochester.edu/), [University of Rochester](http://www.rochester.edu/) (NY)  
 Secondary appointments in [Physics & Astronomy](http://www.pas.rochester.edu/), [Computer Science](https://cs.rochester.edu)   
 Member of [Center for Visual Science (CVS)](https://www.cvs.rochester.edu/) and [Data Science Institute](http://www.sas.rochester.edu/dsc/)
 
