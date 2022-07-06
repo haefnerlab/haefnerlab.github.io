@@ -1,6 +1,6 @@
 ---
 name: Blank
-position: alumni
+position: not_needed
 avatar: something.JPG
 twitter: 
 webpage:
