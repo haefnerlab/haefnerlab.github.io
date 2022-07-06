@@ -67,6 +67,7 @@ permalink: /people/
 | Martynas Snarskis| Undergraduate (2021) | |
 | Linghao Xu| Masters Student (2021) | Ph.D. at Ruben Coen Cagli's lab|
 | [Richard Lange](http://boxandarrowbrain.com) | Graduate Student (2020) | Postdoc at Konrad Kording's Lab |
+| Ankani Chattoraj | Ph.D. (2022)| Data Research Scientist
 
 
 {% endif %}
