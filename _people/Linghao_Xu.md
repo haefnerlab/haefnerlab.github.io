@@ -1,8 +1,8 @@
 ---
 name: Linghao Xu
 position: alumni
-avatar: 
+avatar: Linghao.JPG
 twitter: 
-webpage:
-joined: 2019
 ---
+
+<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
