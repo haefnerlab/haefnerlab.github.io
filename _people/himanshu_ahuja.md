@@ -1,6 +1,6 @@
 ---
 name: Himanshu Ahuja
-position: gradstudent
+position: alumni
 avatar: himanshu_1.jpg
 twitter: 
 webpage: https://ahujahimanshu.com/
