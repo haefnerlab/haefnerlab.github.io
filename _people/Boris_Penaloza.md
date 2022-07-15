@@ -7,4 +7,3 @@ webpage:
 joined: 2021
 ---
 
-## Whatever I want to add about me.
