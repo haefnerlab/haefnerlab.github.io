@@ -3,7 +3,7 @@ name: Boris Penaloza
 position: postdoc
 avatar: boris_penaloza.jpg
 twitter: 
-webpage: haefnerlab.gitbhub.io
+webpage: 
 joined: 2021
 ---
 
