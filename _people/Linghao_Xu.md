@@ -7,4 +7,4 @@ twitter:
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
 
-Now a PhD student with <a href="https://sites.google.com/site/rubencoencagli/people?authuser=0">Ruben Coen-Cagli</a>.
+Now a PhD student with <a href="https://sites.google.com/site/rubencoencagli/">Ruben Coen-Cagli</a>.
