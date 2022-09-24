@@ -1,6 +1,6 @@
 ---
 name: Sabya
-position: postdoc
+position: gradstudent
 avatar: sabya.png
 twitter:
 webpage: manga-sab.github.io
