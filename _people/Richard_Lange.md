@@ -1,7 +1,7 @@
 ---
 name: Richard Lange
 position: alumni
-avatar: 
+avatar: Richard_Lange.jpg
 twitter: 
 webpage: http://kordinglab.com/people/richard_lange/index.html
 ---
